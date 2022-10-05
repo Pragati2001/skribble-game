@@ -1,0 +1,255 @@
+.instruction {
+  /* background-color: antiquewhite; */
+  background-image: url('../assets/bg3.png');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inst_heading {
+  text-align: center;
+  font-size: 44px;
+  font-family: cursive;
+  font-weight: 100;
+  height: 80px;
+
+}
+
+.inst_middle {
+  /* background-color: blueviolet; */
+  height: 60%;
+  display: flex;
+  padding: 10px;
+}
+
+.settings {
+  /* background-color: bisque; */
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  margin: 20px;
+  border-color: white;
+  border-width: 10px;
+  border-style: ridge;
+  opacity: 0.8;
+
+}
+
+.settings:hover {
+  width: 35%;
+  height: 120%;
+  margin: 20px;
+  border-color: white;
+  border-width: 10px;
+  border-style: ridge;
+}
+
+.instruction_pic {
+  /* margin-left: 34px; */
+  border: 2px solid black;
+}
+
+.avatar_chosen {
+  /* grid-area: second_one; */
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+
+}
+
+
+.avatar_chosen p {
+  font-size: 34px;
+  ;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 34px;
+  /* appearance: none; */
+}
+
+input {
+  font-size: 12px;
+  font: bold;
+  text-align: center;
+}
+
+.rules {
+  /* grid-area: third_one; */
+  margin-left: 8%;
+  /* background-color: bisque; */
+  /* background-image:radial-gradient(purple,blue,pink); */
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  margin: 20px;
+  border-color: white;
+  border-width: 10px;
+  border-style: ridge;
+}
+
+.rules:hover {
+  /* background-color: rgb(203, 163, 230); */
+  /* background-image: url('../assets/bg_img.jpg'); */
+  width: 35%;
+  height: 120%;
+  margin: 20px;
+  border-color: white;
+  border-width: 10px;
+}
+
+.rules h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 8vh;
+}
+
+.rules ul {
+  text-decoration: none;
+  font-size: 3vh;
+  list-style-type: square;
+}
+
+.rules li {
+  padding: 1.2vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* te */
+}
+
+.settings h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 8vh;
+}
+
+.settings ul {
+  text-decoration: none;
+  font-size: 3vh;
+  list-style-type: square;
+}
+
+.settings li {
+  padding: 1.2vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* te */
+}
+
+.next_btn {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.custom-btn {
+  margin: 20px;
+  width: 130px;
+  height: 40px;
+  /* color: #fff; */
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+.btn-8 {
+  background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn-8 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-8:before,
+.btn-8:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #c797eb;
+  /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+  transition: all 0.3s ease;
+}
+
+.btn-8:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-8:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn-8:hover:before {
+  height: 100%;
+}
+
+.btn-8:hover:after {
+  width: 100%;
+}
+
+.btn-8:hover {
+  background: transparent;
+}
+
+.btn-8 span:hover {
+  color: #c797eb;
+}
+
+.btn-8 span:before,
+.btn-8 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #c797eb;
+  /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+  transition: all 0.3s ease;
+}
+
+.btn-8 span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.btn-8 span:after {
+  height: 2px;
+  width: 0%;
+}
+
+.btn-8 span:hover:before {
+  height: 100%;
+}
+
+.btn-8 span:hover:after {
+  width: 100%;
+}

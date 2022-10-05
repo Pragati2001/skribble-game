@@ -1,0 +1,22 @@
+.avatar_grp {
+    grid-area: one;
+    height: 750px;
+    width: 500px;
+    /* border: 2px solid red; */
+    /* background-color: orange; */
+    /* background-color: aliceblue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    /* position: absolute; */
+}
+
+.avatar__style {
+    position: relative;
+    border: 2px solid gey;
+    border-style: double;
+    height: 175px;
+    width: 175px;
+    cursor: pointer;
+}
